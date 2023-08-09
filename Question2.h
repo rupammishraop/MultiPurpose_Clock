@@ -80,10 +80,10 @@ void Question_clock()
     while(true)
     {
         coordination(20,8);
-    cout << " 3. Add 8.563 and 4.8292= \n ";
+    cout << " 3. What is the capital of Bihar";
     coordination(20,9);
-    cin>>d;
-    if(d==13.3922)
+    cin>>k;
+    if(k=="PATNA" || k=="Patna" || k=="patna")
         {
             coordination(20,10);
             cout<<" right answer"<<endl;
